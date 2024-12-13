@@ -48,6 +48,11 @@ config BOARD_K230D_CANMV_BPI
        bool "K230 CANMV(BPI)"
         help
            "CANMV(k230d bpi)";
+
+config BOARD_K230D_CANMV_ATK_DNK230D
+	bool "K230D CANMV(ATK-DNK230D)"
+        help
+           "CANMV(Alientek DNK230D)";
 endchoice
 
 
